@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    color: black;
+    background: #f3c11c;
+    border: transparent;
+    width: 100px;
+    border-radius: 20px;
+    margin: 0.5rem;
+}
+
+
+
+h4{
+    margin: 0.09rem;
+}
+
+div{
+    border: 1px solid black;
+    display: grid;
+}
+
+section{
+    display: grid;
+}
+
+form{
+    display: grid;
+    padding: 1rem;
+}
+
+label{
+    margin: 0.5rem;
+}
+
+#root{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.fill-info{
+    display: grid;
+    width: 250px;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+    border-radius: 20px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    /*padding: 1rem 0 1rem 0;*/
+}
+
+.fill-info div{
+    margin: 0.5rem 0 0.5rem 0;
+    text-align: center;
+}
+
+
+.info-display{
+    text-align: center;
+    width: 600px;
+    padding: 18px;
+}
+
+
+.display-info{
+    margin-top: 2rem;
+    padding: 2rem;
+    border: solid black 2px;
+    border-radius: 50px;
+    height: fit-content;
+}
+
+.display-info div{
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+#personal{
+    box-shadow: black 8px 8px;
+    width: 225px;
+}
+
+#personal-display{
+    background: #f3c11c;
+    color: black;;
+    height: fit-content;
+    text-align: left;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+#skill-display ul{
+    overflow: auto;
+    border: blue 1px solid;
+}
+
+
+#skill-display ul li{
+    margin: 0 1rem 0 1rem;
+}
+
+li{
+    list-style: none;
+}
+
+tr{
+    width: fit-content;
+}
+
+td{
+    background: #f3c11c;
+    border-radius: 70px;
+    height: 10px;
+}
+
+ul{
+    padding: 0;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem 0 0.5rem;
+    width: 200px;
+
+}
+
+#skill{
+    display: grid;
+    justify-items: center;
+    padding: 0 0.5rem 0 0.5rem;
+    box-shadow: black 8px 8px;
+}
+
+.heading{
+    background: #c7c4c4;
+    width: 150px;
+    border-radius: 40px;
+    text-align: left;
+    padding: 0 0 0 1rem;
+}
+
+.removeButton{
+    width: 16px;
+    cursor: pointer;
+}
+
+
+.submitButton{
+    height: fit-content;
+    width: 60px;
+    cursor: pointer;
+}
+
+#degree{
+    border: 1px solid black;
+}
+
+.transparentText{
+    color: #5e5757;
+}
+
+.degree{
+    text-align: left;
+    padding: 0.5rem;
+}
+
+#education{
+    display: grid;
+    justify-items: center;
+    box-shadow: black 8px 8px;
+    width: 225px;
+}
+
+#work{
+    display: grid;
+    justify-items: center;
+    padding: 0.5rem;
+    box-shadow: black 8px 8px;
+}
+
+.work{
+    padding: 0.5rem;
+}
+
+#work-display{
+    text-align: left;
+    padding: 1rem;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    border: none;
+    padding: 0 0 0 3rem;
+}
